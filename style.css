@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    width: max-content;
+}
+.links{
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #fff;
+}
+.line{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: transform .4s ease-in-out;
+
+    /* width: 100%; */
+}
